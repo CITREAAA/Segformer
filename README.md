@@ -1,6 +1,3 @@
-# Define the text content for the README file based on previous interaction
-readme_text = """# SegFormer-Pytorch Mobile Semantic Segmentation Project
-
 本專案基於 SegFormer (b0) 架構進行微調（Fine-tuning），專為行動端（Flutter / Mobile ONNX Runtime）部署所打造的語義分割（Semantic Segmentation）專題。模型自帶自定義的 HWC 轉 CHW 維度調換、ImageNet 標準化預處理層，且輸出端已強制轉換為行動端友好的 int32 格式，實現零預處理、無痛對接手機端推論。
 
 ---
